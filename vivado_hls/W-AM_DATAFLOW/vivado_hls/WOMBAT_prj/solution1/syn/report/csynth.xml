@@ -1,0 +1,2120 @@
+<profile>
+    <ReportVersion>
+        <Version>2021.1</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>virtex7</ProductFamily>
+        <Part>xc7vx690t-ffg1927-2</Part>
+        <TopModelName>algo_unpacked</TopModelName>
+        <TargetClockPeriod>6.25</TargetClockPeriod>
+        <ClockUncertainty>1.69</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>dataflow</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>5.794</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>22</Best-caseLatency>
+            <Average-caseLatency>22</Average-caseLatency>
+            <Worst-caseLatency>22</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0.138 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0.138 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0.138 us</Worst-caseRealTimeLatency>
+            <DataflowPipelineThroughput>4</DataflowPipelineThroughput>
+            <Interval-min>4</Interval-min>
+            <Interval-max>4</Interval-max>
+        </SummaryOfOverallLatency>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <DSP>416</DSP>
+            <FF>38861</FF>
+            <LUT>89643</LUT>
+            <BRAM_18K>0</BRAM_18K>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>2940</BRAM_18K>
+            <DSP>3600</DSP>
+            <FF>866400</FF>
+            <LUT>433200</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>link_in_0</name>
+            <Object>link_in_0</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_1</name>
+            <Object>link_in_1</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_2</name>
+            <Object>link_in_2</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_3</name>
+            <Object>link_in_3</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_4</name>
+            <Object>link_in_4</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_5</name>
+            <Object>link_in_5</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_6</name>
+            <Object>link_in_6</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_7</name>
+            <Object>link_in_7</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_8</name>
+            <Object>link_in_8</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_9</name>
+            <Object>link_in_9</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_10</name>
+            <Object>link_in_10</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_11</name>
+            <Object>link_in_11</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_12</name>
+            <Object>link_in_12</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_13</name>
+            <Object>link_in_13</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_14</name>
+            <Object>link_in_14</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_15</name>
+            <Object>link_in_15</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_16</name>
+            <Object>link_in_16</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_17</name>
+            <Object>link_in_17</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_18</name>
+            <Object>link_in_18</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_19</name>
+            <Object>link_in_19</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_20</name>
+            <Object>link_in_20</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_21</name>
+            <Object>link_in_21</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_22</name>
+            <Object>link_in_22</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_23</name>
+            <Object>link_in_23</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_24</name>
+            <Object>link_in_24</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_25</name>
+            <Object>link_in_25</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_26</name>
+            <Object>link_in_26</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_27</name>
+            <Object>link_in_27</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_28</name>
+            <Object>link_in_28</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_29</name>
+            <Object>link_in_29</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_30</name>
+            <Object>link_in_30</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_31</name>
+            <Object>link_in_31</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_32</name>
+            <Object>link_in_32</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_33</name>
+            <Object>link_in_33</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_34</name>
+            <Object>link_in_34</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_in_35</name>
+            <Object>link_in_35</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>128</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_out_i</name>
+            <Object>link_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_ovld</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>256</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_out_o</name>
+            <Object>link_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_ovld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>256</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>link_out_o_ap_vld</name>
+            <Object>link_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_ovld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>algo_unpacked</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst</name>
+            <Object>algo_unpacked</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_start</name>
+            <Object>algo_unpacked</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_done</name>
+            <Object>algo_unpacked</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_ready</name>
+            <Object>algo_unpacked</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_idle</name>
+            <Object>algo_unpacked</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="4">
+            <ModuleName>algo_unpacked</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>region_extraction_U0</InstName>
+                    <ModuleName>region_extraction</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>126</ID>
+                </Instance>
+                <Instance>
+                    <InstName>WOMBAT_U0</InstName>
+                    <ModuleName>WOMBAT</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>108</ID>
+                    <InstancesList>
+                        <Instance>
+                            <InstName>grp_conv_2d_cl_ap_uint_10_ap_fixed_16_6_5_3_0_config2_s_fu_46</InstName>
+                            <ModuleName>conv_2d_cl_ap_uint_10_ap_fixed_16_6_5_3_0_config2_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>46</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>call_ret2_relu30_ap_fixed_ap_fixed_16_6_5_3_0_relu_config5_s_fu_52</InstName>
+                            <ModuleName>relu30_ap_fixed_ap_fixed_16_6_5_3_0_relu_config5_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>52</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config4_s_fu_132</InstName>
+                            <ModuleName>normalize_ap_fixed_ap_fixed_16_6_5_3_0_config4_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>132</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_conv_2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config6_s_fu_212</InstName>
+                            <ModuleName>conv_2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config6_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>212</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config8_s_fu_292</InstName>
+                            <ModuleName>normalize_ap_fixed_ap_fixed_16_6_5_3_0_config8_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>292</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>call_ret5_relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config9_s_fu_372</InstName>
+                            <ModuleName>relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config9_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>372</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_pooling2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s_fu_452</InstName>
+                            <ModuleName>pooling2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>452</ID>
+                            <InstancesList>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_666</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>666</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_658</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>658</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_679</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>679</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_652</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>652</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_648</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>648</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_670</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>670</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_665</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>665</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_675</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>675</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_653</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>653</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_636</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>636</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_634</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>634</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_649</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>649</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_655</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>655</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_639</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>639</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_632</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>632</ID>
+                                </Instance>
+                                <Instance>
+                                    <InstName>grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_677</InstName>
+                                    <ModuleName>pool_op_ap_fixed_16_6_5_3_0_9_1_s</ModuleName>
+                                    <IsCompInst>true</IsCompInst>
+                                    <ID>677</ID>
+                                </Instance>
+                            </InstancesList>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config11_s_fu_532</InstName>
+                            <ModuleName>normalize_ap_fixed_ap_fixed_16_6_5_3_0_config11_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>532</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config13_s_fu_552</InstName>
+                            <ModuleName>dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config13_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>552</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>call_ret9_relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config15_s_fu_592</InstName>
+                            <ModuleName>relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config15_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>592</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config16_s_fu_628</InstName>
+                            <ModuleName>dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config16_s</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>628</ID>
+                        </Instance>
+                    </InstancesList>
+                </Instance>
+                <Instance>
+                    <InstName>output_assignment_U0</InstName>
+                    <ModuleName>output_assignment</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>113</ID>
+                    <BindInstances>ret_V_1_fu_98_p2 ret_V_4_fu_174_p2 ret_V_7_fu_250_p2 ret_V_10_fu_326_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>write_link_out_U0</InstName>
+                    <ModuleName>write_link_out</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>118</ID>
+                </Instance>
+            </InstancesList>
+            <BindInstances>et_calo_ad_V_U WOMBAT_out_V_U tmp_link_out_V_0_U</BindInstances>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>region_extraction</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>1</TargetInitiationInterval>
+                    <EstimatedClockPeriod>0.000</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>1</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>842</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>20</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>conv_2d_cl_ap_uint_10_ap_fixed_16_6_5_3_0_config2_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>4</TargetInitiationInterval>
+                    <EstimatedClockPeriod>4.219</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>1</Best-caseLatency>
+                    <Average-caseLatency>1</Average-caseLatency>
+                    <Worst-caseLatency>1</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>6.250 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>6.250 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>6.250 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>2</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <FF>2509</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>9190</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>2</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>relu30_ap_fixed_ap_fixed_16_6_5_3_0_relu_config5_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>4294967295</TargetInitiationInterval>
+                    <EstimatedClockPeriod>1.783</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>1</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>0</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>0</UTIL_FF>
+                    <LUT>2964</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>normalize_ap_fixed_ap_fixed_16_6_5_3_0_config4_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>3.720</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>1</Best-caseLatency>
+                    <Average-caseLatency>1</Average-caseLatency>
+                    <Worst-caseLatency>1</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>6.250 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>6.250 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>6.250 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>2</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>19</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>1313</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>2977</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>conv_2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config6_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>4</TargetInitiationInterval>
+                    <EstimatedClockPeriod>3.984</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>2</Best-caseLatency>
+                    <Average-caseLatency>2</Average-caseLatency>
+                    <Worst-caseLatency>2</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>12.500 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>12.500 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>12.500 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>3</PipelineInitiationInterval>
+                    <PipelineDepth>3</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>70</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>1</UTIL_DSP>
+                    <FF>3757</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>10338</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>2</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>normalize_ap_fixed_ap_fixed_16_6_5_3_0_config8_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>3.720</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>1</Best-caseLatency>
+                    <Average-caseLatency>1</Average-caseLatency>
+                    <Worst-caseLatency>1</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>6.250 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>6.250 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>6.250 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>2</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>76</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>2</UTIL_DSP>
+                    <FF>1978</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>2977</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config9_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>4294967295</TargetInitiationInterval>
+                    <EstimatedClockPeriod>1.746</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>1</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>0</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>0</UTIL_FF>
+                    <LUT>2128</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>pool_op_ap_fixed_16_6_5_3_0_9_1_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <EstimatedClockPeriod>3.965</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>5</Best-caseLatency>
+                    <Average-caseLatency>5</Average-caseLatency>
+                    <Worst-caseLatency>5</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>31.250 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>31.250 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>31.250 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>6</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>1</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>333</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>324</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>pooling2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>4.562</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>6</Best-caseLatency>
+                    <Average-caseLatency>6</Average-caseLatency>
+                    <Worst-caseLatency>6</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>37.500 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>37.500 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>37.500 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>7</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>16</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>5334</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>5217</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>normalize_ap_fixed_ap_fixed_16_6_5_3_0_config11_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>3.720</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>1</Best-caseLatency>
+                    <Average-caseLatency>1</Average-caseLatency>
+                    <Worst-caseLatency>1</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>6.250 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>6.250 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>6.250 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>2</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>12</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>378</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>733</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config13_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>5.761</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>2</Best-caseLatency>
+                    <Average-caseLatency>2</Average-caseLatency>
+                    <Worst-caseLatency>2</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>12.500 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>12.500 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>12.500 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>3</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>162</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>4</UTIL_DSP>
+                    <FF>14917</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>1</UTIL_FF>
+                    <LUT>47236</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>10</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config15_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>4294967295</TargetInitiationInterval>
+                    <EstimatedClockPeriod>1.746</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>1</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>0</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>0</UTIL_FF>
+                    <LUT>896</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config16_s</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>4.082</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>2</Best-caseLatency>
+                    <Average-caseLatency>2</Average-caseLatency>
+                    <Worst-caseLatency>2</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>12.500 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>12.500 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>12.500 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>3</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>61</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>1</UTIL_DSP>
+                    <FF>2200</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>4476</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>WOMBAT</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>4</TargetInitiationInterval>
+                    <EstimatedClockPeriod>5.794</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>22</Best-caseLatency>
+                    <Average-caseLatency>22</Average-caseLatency>
+                    <Worst-caseLatency>22</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.138 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.138 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.138 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>4</PipelineInitiationInterval>
+                    <PipelineDepth>23</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>416</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>11</UTIL_DSP>
+                    <FF>37460</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>4</UTIL_FF>
+                    <LUT>89193</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>20</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>output_assignment</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>1</TargetInitiationInterval>
+                    <EstimatedClockPeriod>2.282</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>1</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>66</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>176</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="ret_V_1_fu_98_p2" SOURCE="/opt/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:870" URAM="0" VARIABLE="ret_V_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="ret_V_4_fu_174_p2" SOURCE="/opt/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:870" URAM="0" VARIABLE="ret_V_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="ret_V_7_fu_250_p2" SOURCE="/opt/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:870" URAM="0" VARIABLE="ret_V_7"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="ret_V_10_fu_326_p2" SOURCE="/opt/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:870" URAM="0" VARIABLE="ret_V_10"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>write_link_out</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <TargetInitiationInterval>1</TargetInitiationInterval>
+                    <EstimatedClockPeriod>0.000</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>1</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>194</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>20</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>algo_unpacked</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>6.25</TargetClockPeriod>
+                    <ClockUncertainty>1.69</ClockUncertainty>
+                    <EstimatedClockPeriod>5.794</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>22</Best-caseLatency>
+                    <Average-caseLatency>22</Average-caseLatency>
+                    <Worst-caseLatency>22</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.138 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.138 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.138 us</Worst-caseRealTimeLatency>
+                    <DataflowPipelineThroughput>4</DataflowPipelineThroughput>
+                    <PipelineInitiationInterval>4</PipelineInitiationInterval>
+                    <PipelineType>dataflow</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>416</DSP>
+                    <AVAIL_DSP>3600</AVAIL_DSP>
+                    <UTIL_DSP>11</UTIL_DSP>
+                    <FF>38861</FF>
+                    <AVAIL_FF>866400</AVAIL_FF>
+                    <UTIL_FF>4</UTIL_FF>
+                    <LUT>89643</LUT>
+                    <AVAIL_LUT>433200</AVAIL_LUT>
+                    <UTIL_LUT>20</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>2940</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="et_calo_ad_V_U" SOURCE="" URAM="0" VARIABLE="et_calo_ad_V"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op fifo" DSP="416" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="WOMBAT_out_V_U" SOURCE="" URAM="0" VARIABLE="WOMBAT_out_V"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="tmp_link_out_V_0_U" SOURCE="" URAM="0" VARIABLE="tmp_link_out_V_0"/>
+            </BindNodes>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands>
+        <config_compile name_max_length="60"/>
+    </UserConfigCommands>
+    <Args>
+        <Arg ArgName="link_in" index="0" direction="in" srcType="ap_uint&lt;128&gt;*" srcSize="128">
+            <hwRefs>
+                <hwRef type="port" interface="link_in_0" name="link_in_0" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_1" name="link_in_1" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_2" name="link_in_2" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_3" name="link_in_3" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_4" name="link_in_4" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_5" name="link_in_5" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_6" name="link_in_6" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_7" name="link_in_7" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_8" name="link_in_8" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_9" name="link_in_9" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_10" name="link_in_10" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_11" name="link_in_11" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_12" name="link_in_12" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_13" name="link_in_13" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_14" name="link_in_14" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_15" name="link_in_15" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_16" name="link_in_16" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_17" name="link_in_17" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_18" name="link_in_18" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_19" name="link_in_19" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_20" name="link_in_20" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_21" name="link_in_21" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_22" name="link_in_22" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_23" name="link_in_23" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_24" name="link_in_24" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_25" name="link_in_25" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_26" name="link_in_26" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_27" name="link_in_27" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_28" name="link_in_28" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_29" name="link_in_29" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_30" name="link_in_30" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_31" name="link_in_31" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_32" name="link_in_32" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_33" name="link_in_33" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_34" name="link_in_34" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_in_35" name="link_in_35" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="link_out" index="1" direction="out" srcType="ap_uint&lt;192&gt;*" srcSize="256">
+            <hwRefs>
+                <hwRef type="port" interface="link_out_i" name="link_out_i" usage="data" direction="in"/>
+                <hwRef type="port" interface="link_out_o" name="link_out_o" usage="data" direction="out"/>
+                <hwRef type="port" interface="link_out_o_ap_vld" name="link_out_o_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="link_in_0" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_1" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_2" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_2">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_2</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_3" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_3">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_3</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_4" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_4">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_4</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_5" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_5">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_5</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_6" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_6">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_6</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_7" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_7">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_7</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_8" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_8">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_8</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_9" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_9">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_9</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_10" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_10">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_10</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_11" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_11">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_11</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_12" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_12">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_12</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_13" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_13">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_13</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_14" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_14">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_14</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_15" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_15">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_15</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_16" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_16">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_16</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_17" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_17">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_17</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_18" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_18">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_18</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_19" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_19">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_19</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_20" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_20">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_20</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_21" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_21">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_21</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_22" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_22">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_22</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_23" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_23">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_23</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_24" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_24">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_24</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_25" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_25">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_25</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_26" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_26">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_26</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_27" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_27">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_27</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_28" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_28">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_28</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_29" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_29">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_29</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_30" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_30">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_30</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_31" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_31">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_31</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_32" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_32">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_32</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_33" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_33">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_33</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_34" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_34">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_34</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_in_35" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="128">
+            <portMaps>
+                <portMap portMapName="link_in_35">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_in_35</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="link_in"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_out_i" type="data" busTypeName="data" protocol="ap_ovld" mode="slave" dataWidth="256">
+            <portMaps>
+                <portMap portMapName="link_out_i">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_out_i</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="link_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="link_out_o" type="data" busTypeName="data" protocol="ap_ovld" mode="master" dataWidth="256">
+            <portMaps>
+                <portMap portMapName="link_out_o">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>link_out_o</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="link_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_ctrl" type="ap_ctrl" busTypeName="acc_handshake" mode="slave">
+            <portMaps>
+                <portMap portMapName="ap_start">start</portMap>
+                <portMap portMapName="ap_done">done</portMap>
+                <portMap portMapName="ap_ready">ready</portMap>
+                <portMap portMapName="ap_idle">idle</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_done</port>
+                <port>ap_idle</port>
+                <port>ap_ready</port>
+                <port>ap_start</port>
+            </ports>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="AP_MEMORY">
+                <table isCollapsed="0">
+                    <keys size="2">Interface, Bitwidth</keys>
+                    <column name="link_out_i">256</column>
+                    <column name="link_out_o">256</column>
+                </table>
+            </item>
+            <item name="REGISTER">
+                <table isCollapsed="0">
+                    <keys size="3">Interface, Mode, Bitwidth</keys>
+                    <column name="link_in_0">ap_none, 128</column>
+                    <column name="link_in_1">ap_none, 128</column>
+                    <column name="link_in_10">ap_none, 128</column>
+                    <column name="link_in_11">ap_none, 128</column>
+                    <column name="link_in_12">ap_none, 128</column>
+                    <column name="link_in_13">ap_none, 128</column>
+                    <column name="link_in_14">ap_none, 128</column>
+                    <column name="link_in_15">ap_none, 128</column>
+                    <column name="link_in_16">ap_none, 128</column>
+                    <column name="link_in_17">ap_none, 128</column>
+                    <column name="link_in_18">ap_none, 128</column>
+                    <column name="link_in_19">ap_none, 128</column>
+                    <column name="link_in_2">ap_none, 128</column>
+                    <column name="link_in_20">ap_none, 128</column>
+                    <column name="link_in_21">ap_none, 128</column>
+                    <column name="link_in_22">ap_none, 128</column>
+                    <column name="link_in_23">ap_none, 128</column>
+                    <column name="link_in_24">ap_none, 128</column>
+                    <column name="link_in_25">ap_none, 128</column>
+                    <column name="link_in_26">ap_none, 128</column>
+                    <column name="link_in_27">ap_none, 128</column>
+                    <column name="link_in_28">ap_none, 128</column>
+                    <column name="link_in_29">ap_none, 128</column>
+                    <column name="link_in_3">ap_none, 128</column>
+                    <column name="link_in_30">ap_none, 128</column>
+                    <column name="link_in_31">ap_none, 128</column>
+                    <column name="link_in_32">ap_none, 128</column>
+                    <column name="link_in_33">ap_none, 128</column>
+                    <column name="link_in_34">ap_none, 128</column>
+                    <column name="link_in_35">ap_none, 128</column>
+                    <column name="link_in_4">ap_none, 128</column>
+                    <column name="link_in_5">ap_none, 128</column>
+                    <column name="link_in_6">ap_none, 128</column>
+                    <column name="link_in_7">ap_none, 128</column>
+                    <column name="link_in_8">ap_none, 128</column>
+                    <column name="link_in_9">ap_none, 128</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table isCollapsed="0">
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst">reset, ap_rst</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, ap_done ap_idle ap_ready ap_start</column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table isCollapsed="1">
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="link_in">in, ap_uint&lt;128&gt;*</column>
+                    <column name="link_out">out, ap_uint&lt;192&gt;*</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table isCollapsed="1">
+                    <keys size="3">Argument, HW Name, HW Type</keys>
+                    <column name="link_in">link_in_0, port</column>
+                    <column name="link_in">link_in_1, port</column>
+                    <column name="link_in">link_in_2, port</column>
+                    <column name="link_in">link_in_3, port</column>
+                    <column name="link_in">link_in_4, port</column>
+                    <column name="link_in">link_in_5, port</column>
+                    <column name="link_in">link_in_6, port</column>
+                    <column name="link_in">link_in_7, port</column>
+                    <column name="link_in">link_in_8, port</column>
+                    <column name="link_in">link_in_9, port</column>
+                    <column name="link_in">link_in_10, port</column>
+                    <column name="link_in">link_in_11, port</column>
+                    <column name="link_in">link_in_12, port</column>
+                    <column name="link_in">link_in_13, port</column>
+                    <column name="link_in">link_in_14, port</column>
+                    <column name="link_in">link_in_15, port</column>
+                    <column name="link_in">link_in_16, port</column>
+                    <column name="link_in">link_in_17, port</column>
+                    <column name="link_in">link_in_18, port</column>
+                    <column name="link_in">link_in_19, port</column>
+                    <column name="link_in">link_in_20, port</column>
+                    <column name="link_in">link_in_21, port</column>
+                    <column name="link_in">link_in_22, port</column>
+                    <column name="link_in">link_in_23, port</column>
+                    <column name="link_in">link_in_24, port</column>
+                    <column name="link_in">link_in_25, port</column>
+                    <column name="link_in">link_in_26, port</column>
+                    <column name="link_in">link_in_27, port</column>
+                    <column name="link_in">link_in_28, port</column>
+                    <column name="link_in">link_in_29, port</column>
+                    <column name="link_in">link_in_30, port</column>
+                    <column name="link_in">link_in_31, port</column>
+                    <column name="link_in">link_in_32, port</column>
+                    <column name="link_in">link_in_33, port</column>
+                    <column name="link_in">link_in_34, port</column>
+                    <column name="link_in">link_in_35, port</column>
+                    <column name="link_out">link_out_i, port</column>
+                    <column name="link_out">link_out_o, port</column>
+                    <column name="link_out">link_out_o_ap_vld, port</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ReportBurst>
+        <section name="M_AXI Burst Information" level="0"/>
+    </ReportBurst>
+</profile>
+

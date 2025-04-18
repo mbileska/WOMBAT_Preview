@@ -1,0 +1,139 @@
+
+
+================================================================
+== Vitis HLS Report for 'region_extraction'
+================================================================
+* Date:           Wed Apr  2 21:07:56 2025
+
+* Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)
+* Project:        WOMBAT_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtex7
+* Target device:  xc7vx690t-ffg1927-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.25 ns|      0 ns|     1.69 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|       2|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|      18|    -|
+|Register         |        -|     -|     842|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|     842|      20|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     2940|  3600|  866400|  433200|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------+----------+----+---+----+------------+------------+
+    |  Variable Name  | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |ap_block_state1  |        or|   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |Total            |          |   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------+----+-----------+-----+-----------+
+    |    Name   | LUT| Input Size| Bits| Total Bits|
+    +-----------+----+-----------+-----+-----------+
+    |ap_done    |   9|          2|    1|          2|
+    |ap_return  |   9|          2|  840|       1680|
+    +-----------+----+-----------+-----+-----------+
+    |Total      |  18|          4|  841|       1682|
+    +-----------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------+-----+----+-----+-----------+
+    |      Name      |  FF | LUT| Bits| Const Bits|
+    +----------------+-----+----+-----+-----------+
+    |ap_CS_fsm       |    1|   0|    1|          0|
+    |ap_done_reg     |    1|   0|    1|          0|
+    |ap_return_preg  |  840|   0|  840|          0|
+    +----------------+-----+----+-----+-----------+
+    |Total           |  842|   0|  842|          0|
+    +----------------+-----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------+-----+-----+------------+-------------------+--------------+
+|  RTL Ports  | Dir | Bits|  Protocol  |   Source Object   |    C Type    |
++-------------+-----+-----+------------+-------------------+--------------+
+|ap_clk       |   in|    1|  ap_ctrl_hs|  region_extraction|  return value|
+|ap_rst       |   in|    1|  ap_ctrl_hs|  region_extraction|  return value|
+|ap_start     |   in|    1|  ap_ctrl_hs|  region_extraction|  return value|
+|ap_done      |  out|    1|  ap_ctrl_hs|  region_extraction|  return value|
+|ap_continue  |   in|    1|  ap_ctrl_hs|  region_extraction|  return value|
+|ap_idle      |  out|    1|  ap_ctrl_hs|  region_extraction|  return value|
+|ap_ready     |  out|    1|  ap_ctrl_hs|  region_extraction|  return value|
+|ap_return    |  out|  840|  ap_ctrl_hs|  region_extraction|  return value|
+|link_in_0    |   in|  128|     ap_none|          link_in_0|       pointer|
+|link_in_1    |   in|  128|     ap_none|          link_in_1|       pointer|
+|link_in_2    |   in|  128|     ap_none|          link_in_2|       pointer|
+|link_in_3    |   in|  128|     ap_none|          link_in_3|       pointer|
+|link_in_4    |   in|  128|     ap_none|          link_in_4|       pointer|
+|link_in_5    |   in|  128|     ap_none|          link_in_5|       pointer|
+|link_in_6    |   in|  128|     ap_none|          link_in_6|       pointer|
+|link_in_7    |   in|  128|     ap_none|          link_in_7|       pointer|
+|link_in_8    |   in|  128|     ap_none|          link_in_8|       pointer|
+|link_in_9    |   in|  128|     ap_none|          link_in_9|       pointer|
+|link_in_10   |   in|  128|     ap_none|         link_in_10|       pointer|
+|link_in_11   |   in|  128|     ap_none|         link_in_11|       pointer|
++-------------+-----+-----+------------+-------------------+--------------+
+

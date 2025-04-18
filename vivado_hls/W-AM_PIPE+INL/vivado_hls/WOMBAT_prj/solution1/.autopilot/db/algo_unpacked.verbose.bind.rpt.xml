@@ -1,0 +1,56 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'algo_unpacked'" level="0">
+<item name = "Date">Sat Mar 29 17:39:25 2025
+</item>
+<item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)</item>
+<item name = "Project">WOMBAT_prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">virtex7</item>
+<item name = "Target device">xc7vx690t-ffg1927-2</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">6.25 ns, 5.761 ns, 1.69 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">24, 24, 0.150 us, 0.150 us, 25, 25, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_conv_2d_cl_ap_uint_10_ap_fixed_16_6_5_3_0_config2_s_fu_269">conv_2d_cl_ap_uint_10_ap_fixed_16_6_5_3_0_config2_s, 1, 1, 6.250 ns, 6.250 ns, 2, 2, yes</column>
+<column name="grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config4_s_fu_274">normalize_ap_fixed_ap_fixed_16_6_5_3_0_config4_s, 1, 1, 6.250 ns, 6.250 ns, 2, 2, yes</column>
+<column name="call_ret3_relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config5_s_fu_354">relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config5_s, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
+<column name="grp_conv_2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config6_s_fu_434">conv_2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config6_s, 1, 1, 6.250 ns, 6.250 ns, 1, 1, no</column>
+<column name="grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config8_s_fu_514">normalize_ap_fixed_ap_fixed_16_6_5_3_0_config8_s, 1, 1, 6.250 ns, 6.250 ns, 2, 2, yes</column>
+<column name="call_ret5_relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config9_s_fu_594">relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config9_s, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
+<column name="grp_pooling2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s_fu_674">pooling2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s, 6, 6, 37.500 ns, 37.500 ns, 2, 2, yes</column>
+<column name="grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config11_s_fu_754">normalize_ap_fixed_ap_fixed_16_6_5_3_0_config11_s, 1, 1, 6.250 ns, 6.250 ns, 2, 2, yes</column>
+<column name="grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config13_s_fu_774">dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config13_s, 2, 2, 12.500 ns, 12.500 ns, 2, 2, yes</column>
+<column name="call_ret9_relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config15_s_fu_814">relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config15_s, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
+<column name="grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config16_s_fu_850">dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config16_s, 2, 2, 12.500 ns, 12.500 ns, 2, 2, yes</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

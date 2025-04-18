@@ -1,0 +1,2553 @@
+{
+  "Top": "algo_unpacked",
+  "RtlTop": "algo_unpacked",
+  "RtlPrefix": "",
+  "RtlSubPrefix": "algo_unpacked_",
+  "SourceLanguage": "cpp",
+  "HostMachineBits": "64",
+  "FunctionProtocol": "ap_ctrl_hs",
+  "ResetStyle": "control",
+  "Target": {
+    "Family": "virtex7",
+    "Device": "xc7vx690t",
+    "Package": "-ffg1927",
+    "Speed": "-2",
+    "Triple": "fpga64-xilinx-none"
+  },
+  "Args": {
+    "link_in": {
+      "index": "0",
+      "direction": "in",
+      "srcType": "ap_uint<128>*",
+      "srcSize": "128",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "link_in_0",
+          "name": "link_in_0",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_1",
+          "name": "link_in_1",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_2",
+          "name": "link_in_2",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_3",
+          "name": "link_in_3",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_4",
+          "name": "link_in_4",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_5",
+          "name": "link_in_5",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_6",
+          "name": "link_in_6",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_7",
+          "name": "link_in_7",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_8",
+          "name": "link_in_8",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_9",
+          "name": "link_in_9",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_10",
+          "name": "link_in_10",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_11",
+          "name": "link_in_11",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_12",
+          "name": "link_in_12",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_13",
+          "name": "link_in_13",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_14",
+          "name": "link_in_14",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_15",
+          "name": "link_in_15",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_16",
+          "name": "link_in_16",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_17",
+          "name": "link_in_17",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_18",
+          "name": "link_in_18",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_19",
+          "name": "link_in_19",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_20",
+          "name": "link_in_20",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_21",
+          "name": "link_in_21",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_22",
+          "name": "link_in_22",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_23",
+          "name": "link_in_23",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_24",
+          "name": "link_in_24",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_25",
+          "name": "link_in_25",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_26",
+          "name": "link_in_26",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_27",
+          "name": "link_in_27",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_28",
+          "name": "link_in_28",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_29",
+          "name": "link_in_29",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_30",
+          "name": "link_in_30",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_31",
+          "name": "link_in_31",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_32",
+          "name": "link_in_32",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_33",
+          "name": "link_in_33",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_34",
+          "name": "link_in_34",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_in_35",
+          "name": "link_in_35",
+          "usage": "data",
+          "direction": "in"
+        }
+      ]
+    },
+    "link_out": {
+      "index": "1",
+      "direction": "out",
+      "srcType": "ap_uint<192>*",
+      "srcSize": "256",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "link_out_i",
+          "name": "link_out_i",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "link_out_o",
+          "name": "link_out_o",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "link_out_o_ap_vld",
+          "name": "link_out_o_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        }
+      ]
+    }
+  },
+  "HlsSolution": {
+    "FlowTarget": "vivado",
+    "ConfigTcl": ["config_compile -name_max_length=60"],
+    "DirectiveTcl": [
+      "set_directive_top algo_unpacked -name algo_unpacked",
+      "set_directive_top algo_unpacked -name algo_unpacked",
+      "set_directive_top algo_unpacked -name algo_unpacked",
+      "set_directive_top algo_unpacked -name algo_unpacked",
+      "set_directive_top algo_unpacked -name algo_unpacked",
+      "set_directive_top algo_unpacked -name algo_unpacked",
+      "set_directive_top algo_unpacked -name algo_unpacked",
+      "set_directive_top algo_unpacked -name algo_unpacked",
+      "set_directive_top algo_unpacked -name algo_unpacked"
+    ],
+    "ProfileOption": "0",
+    "ProfileType": "none",
+    "KernelName": "algo_unpacked"
+  },
+  "ClockInfo": {
+    "ClockName": "ap_clk",
+    "ClockPeriod": "6.25",
+    "Uncertainty": "1.6875",
+    "IsCombinational": "0",
+    "II": "4",
+    "Latency": "56"
+  },
+  "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 6.250 [get_ports ap_clk]"]},
+  "Ipx": {
+    "Vendor": "xilinx.com",
+    "Library": "hls",
+    "Name": "algo_unpacked",
+    "Version": "1.0",
+    "DisplayName": "Algo_unpacked",
+    "Revision": "",
+    "Description": "An IP generated by Vitis HLS",
+    "Taxonomy": "\/VITIS_HLS_IP",
+    "AutoFamilySupport": "",
+    "ZipFile": "xilinx_com_hls_algo_unpacked_1_0.zip"
+  },
+  "Files": {
+    "CSource": [
+      "..\/..\/src\/bitonic32Dec.cpp",
+      "..\/..\/src\/bitonic32Inc.cpp",
+      "..\/..\/src\/bitonicSort64.cpp",
+      "..\/..\/src\/bitonicFun64.cpp",
+      "..\/..\/src\/boostedjet.cpp",
+      "..\/..\/src\/PU_LUT.cpp",
+      "..\/..\/src\/et_3by3.cpp",
+      "..\/..\/src\/cicada.cpp",
+      "..\/..\/src\/algo_unpacked.cpp"
+    ],
+    "Vhdl": [
+      "impl\/vhdl\/algo_unpacked_adder_3by3.vhd",
+      "impl\/vhdl\/algo_unpacked_calo_coor_ieta_V.vhd",
+      "impl\/vhdl\/algo_unpacked_calo_coor_iphi_V.vhd",
+      "impl\/vhdl\/algo_unpacked_calo_coor_side_V.vhd",
+      "impl\/vhdl\/algo_unpacked_dmul_64ns_64ns_64_8_max_dsp_1.vhd",
+      "impl\/vhdl\/algo_unpacked_et_3by3.vhd",
+      "impl\/vhdl\/algo_unpacked_fpext_32ns_64_2_no_dsp_1.vhd",
+      "impl\/vhdl\/algo_unpacked_generic_round_double_s.vhd",
+      "impl\/vhdl\/algo_unpacked_generic_round_double_s_mask_table.vhd",
+      "impl\/vhdl\/algo_unpacked_generic_round_double_s_one_half_table.vhd",
+      "impl\/vhdl\/algo_unpacked_ieta_lut_V.vhd",
+      "impl\/vhdl\/algo_unpacked_iphi_lut_V.vhd",
+      "impl\/vhdl\/algo_unpacked_mul_8ns_10ns_17_1_1.vhd",
+      "impl\/vhdl\/algo_unpacked_mux_2568_2_1_1.vhd",
+      "impl\/vhdl\/algo_unpacked_popcount.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_0.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_1.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_2.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_3.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_4.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_5.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_6.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_7.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_8.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_9.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_10.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_11.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_12.vhd",
+      "impl\/vhdl\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_13.vhd",
+      "impl\/vhdl\/algo_unpacked.vhd"
+    ],
+    "Verilog": [
+      "impl\/verilog\/algo_unpacked_adder_3by3.v",
+      "impl\/verilog\/algo_unpacked_calo_coor_ieta_V.dat",
+      "impl\/verilog\/algo_unpacked_calo_coor_ieta_V.v",
+      "impl\/verilog\/algo_unpacked_calo_coor_iphi_V.dat",
+      "impl\/verilog\/algo_unpacked_calo_coor_iphi_V.v",
+      "impl\/verilog\/algo_unpacked_calo_coor_side_V.dat",
+      "impl\/verilog\/algo_unpacked_calo_coor_side_V.v",
+      "impl\/verilog\/algo_unpacked_dmul_64ns_64ns_64_8_max_dsp_1.v",
+      "impl\/verilog\/algo_unpacked_et_3by3.v",
+      "impl\/verilog\/algo_unpacked_fpext_32ns_64_2_no_dsp_1.v",
+      "impl\/verilog\/algo_unpacked_generic_round_double_s.v",
+      "impl\/verilog\/algo_unpacked_generic_round_double_s_mask_table.dat",
+      "impl\/verilog\/algo_unpacked_generic_round_double_s_mask_table.v",
+      "impl\/verilog\/algo_unpacked_generic_round_double_s_one_half_table.dat",
+      "impl\/verilog\/algo_unpacked_generic_round_double_s_one_half_table.v",
+      "impl\/verilog\/algo_unpacked_ieta_lut_V.dat",
+      "impl\/verilog\/algo_unpacked_ieta_lut_V.v",
+      "impl\/verilog\/algo_unpacked_iphi_lut_V.dat",
+      "impl\/verilog\/algo_unpacked_iphi_lut_V.v",
+      "impl\/verilog\/algo_unpacked_mul_8ns_10ns_17_1_1.v",
+      "impl\/verilog\/algo_unpacked_mux_2568_2_1_1.v",
+      "impl\/verilog\/algo_unpacked_popcount.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_0.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_0.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_1.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_1.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_2.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_2.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_3.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_3.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_4.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_4.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_5.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_5.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_6.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_6.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_7.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_7.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_8.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_8.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_9.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_9.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_10.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_10.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_11.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_11.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_12.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_12.v",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_13.dat",
+      "impl\/verilog\/algo_unpacked_pu_lut_cntr_pum_lut_cntr_13.v",
+      "impl\/verilog\/algo_unpacked.v"
+    ],
+    "IpMisc": ["impl\/misc\/logo.png"],
+    "Subcore": [
+      "impl\/misc\/algo_unpacked_dmul_64ns_64ns_64_8_max_dsp_1_ip.tcl",
+      "impl\/misc\/algo_unpacked_fpext_32ns_64_2_no_dsp_1_ip.tcl"
+    ],
+    "CsynthXml": "syn\/report\/csynth.xml",
+    "DebugDir": ".debug",
+    "KernelXml": ".autopilot\/db\/kernel.internal.xml",
+    "Xo": "",
+    "XoHlsDir": "",
+    "ProtoInst": [".debug\/algo_unpacked.protoinst"]
+  },
+  "SubcoreInfo": {
+    "HasXpmMemory": false,
+    "HasClockedDsp": false,
+    "Ip": [
+      {
+        "Name": "algo_unpacked_dmul_64ns_64ns_64_8_max_dsp_1_ip",
+        "Vlnv": "xilinx.com:ip:floating_point:7.1",
+        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 6 CONFIG.c_mult_usage Max_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name algo_unpacked_dmul_64ns_64ns_64_8_max_dsp_1_ip CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Multiply CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
+      },
+      {
+        "Name": "algo_unpacked_fpext_32ns_64_2_no_dsp_1_ip",
+        "Vlnv": "xilinx.com:ip:floating_point:7.1",
+        "Params": "CONFIG.a_precision_type Single CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 8 CONFIG.c_a_fraction_width 24 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 0 CONFIG.c_mult_usage No_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name algo_unpacked_fpext_32ns_64_2_no_dsp_1_ip CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken false CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Float_to_Float CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
+      }
+    ]
+  },
+  "Interfaces": {
+    "ap_clk": {
+      "type": "clock",
+      "busTypeName": "clock",
+      "mode": "slave",
+      "busParams": {"ASSOCIATED_RESET": "ap_rst"},
+      "portMap": {"ap_clk": "CLK"},
+      "ports": ["ap_clk"]
+    },
+    "ap_rst": {
+      "type": "reset",
+      "busTypeName": "reset",
+      "mode": "slave",
+      "busParams": {"POLARITY": "ACTIVE_HIGH"},
+      "portMap": {"ap_rst": "RST"},
+      "ports": ["ap_rst"]
+    },
+    "ap_ctrl": {
+      "type": "ap_ctrl",
+      "busTypeName": "acc_handshake",
+      "mode": "slave",
+      "portMap": {
+        "ap_start": "start",
+        "ap_done": "done",
+        "ap_idle": "idle",
+        "ap_ready": "ready"
+      },
+      "ports": [
+        "ap_done",
+        "ap_idle",
+        "ap_ready",
+        "ap_start"
+      ]
+    },
+    "link_in_0": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_0": "DATA"},
+      "ports": ["link_in_0"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_1": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_1": "DATA"},
+      "ports": ["link_in_1"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_2": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_2": "DATA"},
+      "ports": ["link_in_2"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_3": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_3": "DATA"},
+      "ports": ["link_in_3"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_4": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_4": "DATA"},
+      "ports": ["link_in_4"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_5": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_5": "DATA"},
+      "ports": ["link_in_5"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_6": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_6": "DATA"},
+      "ports": ["link_in_6"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_7": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_7": "DATA"},
+      "ports": ["link_in_7"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_8": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_8": "DATA"},
+      "ports": ["link_in_8"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_9": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_9": "DATA"},
+      "ports": ["link_in_9"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_10": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_10": "DATA"},
+      "ports": ["link_in_10"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_11": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_11": "DATA"},
+      "ports": ["link_in_11"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_12": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_12": "DATA"},
+      "ports": ["link_in_12"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_13": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_13": "DATA"},
+      "ports": ["link_in_13"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_14": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_14": "DATA"},
+      "ports": ["link_in_14"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_15": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_15": "DATA"},
+      "ports": ["link_in_15"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_16": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_16": "DATA"},
+      "ports": ["link_in_16"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_17": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_17": "DATA"},
+      "ports": ["link_in_17"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_18": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_18": "DATA"},
+      "ports": ["link_in_18"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_19": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_19": "DATA"},
+      "ports": ["link_in_19"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_20": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_20": "DATA"},
+      "ports": ["link_in_20"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_21": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_21": "DATA"},
+      "ports": ["link_in_21"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_22": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_22": "DATA"},
+      "ports": ["link_in_22"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_23": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_23": "DATA"},
+      "ports": ["link_in_23"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_24": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_24": "DATA"},
+      "ports": ["link_in_24"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_25": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_25": "DATA"},
+      "ports": ["link_in_25"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_26": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_26": "DATA"},
+      "ports": ["link_in_26"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_27": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_27": "DATA"},
+      "ports": ["link_in_27"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_28": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_28": "DATA"},
+      "ports": ["link_in_28"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_29": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_29": "DATA"},
+      "ports": ["link_in_29"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_30": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_30": "DATA"},
+      "ports": ["link_in_30"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_31": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_31": "DATA"},
+      "ports": ["link_in_31"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_32": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_32": "DATA"},
+      "ports": ["link_in_32"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_33": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_33": "DATA"},
+      "ports": ["link_in_33"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_34": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_34": "DATA"},
+      "ports": ["link_in_34"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_in_35": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_none",
+      "mode": "slave",
+      "dataWidth": "128",
+      "portMap": {"link_in_35": "DATA"},
+      "ports": ["link_in_35"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "link_in"
+        }]
+    },
+    "link_out_i": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_ovld",
+      "mode": "slave",
+      "dataWidth": "256",
+      "portMap": {"link_out_i": "DATA"},
+      "ports": ["link_out_i"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_memory",
+          "register_option": "0",
+          "argName": "link_out"
+        }]
+    },
+    "link_out_o": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_ovld",
+      "mode": "master",
+      "dataWidth": "256",
+      "portMap": {"link_out_o": "DATA"},
+      "ports": ["link_out_o"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_memory",
+          "register_option": "0",
+          "argName": "link_out"
+        }]
+    }
+  },
+  "RtlPorts": {
+    "ap_clk": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_rst": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_start": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_done": {
+      "dir": "out",
+      "width": "1"
+    },
+    "ap_idle": {
+      "dir": "out",
+      "width": "1"
+    },
+    "ap_ready": {
+      "dir": "out",
+      "width": "1"
+    },
+    "link_in_0": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_1": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_2": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_3": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_4": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_5": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_6": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_7": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_8": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_9": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_10": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_11": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_12": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_13": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_14": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_15": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_16": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_17": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_18": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_19": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_20": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_21": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_22": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_23": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_24": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_25": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_26": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_27": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_28": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_29": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_30": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_31": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_32": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_33": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_34": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_in_35": {
+      "dir": "in",
+      "width": "128"
+    },
+    "link_out_i": {
+      "dir": "in",
+      "width": "256"
+    },
+    "link_out_o": {
+      "dir": "out",
+      "width": "256"
+    },
+    "link_out_o_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    }
+  },
+  "ModuleInfo": {
+    "Hierarchy": {
+      "ModuleName": "algo_unpacked",
+      "Instances": [
+        {
+          "ModuleName": "popcount",
+          "InstanceName": "grp_popcount_fu_2186"
+        },
+        {
+          "ModuleName": "pu_lut_cntr",
+          "InstanceName": "grp_pu_lut_cntr_fu_2191",
+          "Instances": [
+            {
+              "ModuleName": "generic_round_double_s",
+              "InstanceName": "grp_generic_round_double_s_fu_1276"
+            },
+            {
+              "ModuleName": "generic_round_double_s",
+              "InstanceName": "grp_generic_round_double_s_fu_1285"
+            },
+            {
+              "ModuleName": "generic_round_double_s",
+              "InstanceName": "grp_generic_round_double_s_fu_1294"
+            },
+            {
+              "ModuleName": "generic_round_double_s",
+              "InstanceName": "grp_generic_round_double_s_fu_1303"
+            }
+          ]
+        },
+        {
+          "ModuleName": "et_3by3",
+          "InstanceName": "grp_et_3by3_fu_2229",
+          "Instances": [
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1036"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1041"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1046"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1051"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1056"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1061"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1066"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1071"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1076"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1081"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1086"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1091"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1096"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1101"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1106"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1111"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1116"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1121"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1126"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1131"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1136"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1141"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1146"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1151"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1156"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1161"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1166"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1171"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1176"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1181"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1186"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1191"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1196"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1201"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1206"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1211"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1216"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1221"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1226"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1231"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1236"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1241"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1246"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1251"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1256"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1261"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1266"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1271"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1276"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1281"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1286"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1291"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1296"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1301"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1306"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1311"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1316"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1321"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1326"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1331"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1336"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1341"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1346"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1351"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1356"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1361"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1366"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1371"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1376"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1381"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1386"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1391"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1396"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1401"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1406"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1411"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1416"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1421"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1426"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1431"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1436"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1441"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1446"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1451"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1456"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1461"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1466"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1471"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1476"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1481"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1486"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1491"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1496"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1501"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1506"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1511"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1516"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1521"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1526"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1531"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1536"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1541"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1546"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1551"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1556"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1561"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1566"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1571"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1576"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1581"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1586"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1591"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1596"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1601"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1606"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1611"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1616"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1621"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1626"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1631"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1636"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1641"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1646"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1651"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1656"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1661"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1666"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1671"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1676"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1681"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1686"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1691"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1696"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1701"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1706"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1711"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1716"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1721"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1726"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1731"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1736"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1741"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1746"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1751"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1756"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1761"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1766"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1771"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1776"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1781"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1786"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1791"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1796"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1801"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1806"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1811"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1816"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1821"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1826"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1831"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1836"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1841"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1846"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1851"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1856"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1861"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1866"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1871"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1876"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1881"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1886"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1891"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1896"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1901"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1906"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1911"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1916"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1921"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1926"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1931"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1936"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1941"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1946"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1951"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1956"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1961"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1966"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1971"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1976"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1981"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1986"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1991"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_1996"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2001"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2006"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2011"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2016"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2021"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2026"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2031"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2036"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2041"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2046"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2051"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2056"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2061"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2066"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2071"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2076"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2081"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2086"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2091"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2096"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2101"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2106"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2111"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2116"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2121"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2126"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2131"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2136"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2141"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2146"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2151"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2156"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2161"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2166"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2171"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2176"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2181"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2186"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2191"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2196"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2201"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2206"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2211"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2216"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2221"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2226"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2231"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2236"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2241"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2246"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2251"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2256"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2261"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2266"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2271"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2276"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2281"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2286"
+            },
+            {
+              "ModuleName": "adder_3by3",
+              "InstanceName": "grp_adder_3by3_fu_2291"
+            }
+          ]
+        }
+      ]
+    },
+    "Info": {
+      "popcount": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "generic_round_double_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "pu_lut_cntr": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "adder_3by3": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "et_3by3": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "algo_unpacked": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      }
+    },
+    "Metrics": {
+      "popcount": {
+        "Latency": {
+          "LatencyBest": "2",
+          "LatencyAvg": "2",
+          "LatencyWorst": "2",
+          "PipelineII": "3",
+          "PipelineDepth": "3",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "6.25",
+          "Uncertainty": "1.69",
+          "Estimate": "4.221"
+        },
+        "Area": {
+          "FF": "115",
+          "AVAIL_FF": "866400",
+          "UTIL_FF": "~0",
+          "LUT": "2572",
+          "AVAIL_LUT": "433200",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "2940",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "3600",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "generic_round_double_s": {
+        "Latency": {
+          "LatencyBest": "2",
+          "LatencyAvg": "2",
+          "LatencyWorst": "2",
+          "PipelineII": "1",
+          "PipelineDepth": "3",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "6.25",
+          "Uncertainty": "1.69",
+          "Estimate": "3.064"
+        },
+        "Area": {
+          "BRAM_18K": "4",
+          "AVAIL_BRAM": "2940",
+          "UTIL_BRAM": "~0",
+          "FF": "368",
+          "AVAIL_FF": "866400",
+          "UTIL_FF": "~0",
+          "LUT": "331",
+          "AVAIL_LUT": "433200",
+          "UTIL_LUT": "~0",
+          "DSP": "0",
+          "AVAIL_DSP": "3600",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "pu_lut_cntr": {
+        "Latency": {
+          "LatencyBest": "19",
+          "LatencyAvg": "19",
+          "LatencyWorst": "19",
+          "PipelineII": "4",
+          "PipelineDepth": "20",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "6.25",
+          "Uncertainty": "1.69",
+          "Estimate": "4.468"
+        },
+        "Area": {
+          "BRAM_18K": "16",
+          "AVAIL_BRAM": "2940",
+          "UTIL_BRAM": "~0",
+          "DSP": "44",
+          "AVAIL_DSP": "3600",
+          "UTIL_DSP": "1",
+          "FF": "29859",
+          "AVAIL_FF": "866400",
+          "UTIL_FF": "3",
+          "LUT": "25530",
+          "AVAIL_LUT": "433200",
+          "UTIL_LUT": "5",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "adder_3by3": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "6.25",
+          "Uncertainty": "1.69",
+          "Estimate": "4.019"
+        },
+        "Area": {
+          "FF": "55",
+          "AVAIL_FF": "866400",
+          "UTIL_FF": "~0",
+          "LUT": "264",
+          "AVAIL_LUT": "433200",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "2940",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "3600",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "et_3by3": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "6.25",
+          "Uncertainty": "1.69",
+          "Estimate": "4.019"
+        },
+        "Area": {
+          "FF": "16371",
+          "AVAIL_FF": "866400",
+          "UTIL_FF": "1",
+          "LUT": "66541",
+          "AVAIL_LUT": "433200",
+          "UTIL_LUT": "15",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "2940",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "3600",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "algo_unpacked": {
+        "Latency": {
+          "LatencyBest": "56",
+          "LatencyAvg": "56",
+          "LatencyWorst": "56",
+          "PipelineII": "4",
+          "PipelineDepth": "57",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "6.25",
+          "Uncertainty": "1.69",
+          "Estimate": "4.562"
+        },
+        "Area": {
+          "BRAM_18K": "18",
+          "AVAIL_BRAM": "2940",
+          "UTIL_BRAM": "~0",
+          "DSP": "44",
+          "AVAIL_DSP": "3600",
+          "UTIL_DSP": "1",
+          "FF": "127333",
+          "AVAIL_FF": "866400",
+          "UTIL_FF": "14",
+          "LUT": "525565",
+          "AVAIL_LUT": "433200",
+          "UTIL_LUT": "121",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      }
+    }
+  },
+  "GenerateBdFiles": "0",
+  "GenData": {
+    "DataVersion": "0.2",
+    "Time": "2025-04-10 18:19:14 CDT",
+    "ToolName": "vitis_hls",
+    "ToolVersion": "2021.1"
+  }
+}

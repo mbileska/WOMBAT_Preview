@@ -1,0 +1,193 @@
+
+
+================================================================
+== Vitis HLS Report for 'algo_unpacked'
+================================================================
+* Date:           Wed Apr  2 21:10:40 2025
+
+* Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)
+* Project:        WOMBAT_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtex7
+* Target device:  xc7vx690t-ffg1927-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.25 ns|  5.794 ns|     1.69 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |       22|       22|  0.138 us|  0.138 us|    4|    4|  dataflow|
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------+-------------------+---------+---------+----------+----------+-----+-----+---------+
+        |                      |                   |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |       Instance       |       Module      |   min   |   max   |    min   |    max   | min | max |   Type  |
+        +----------------------+-------------------+---------+---------+----------+----------+-----+-----+---------+
+        |WOMBAT_U0             |WOMBAT             |       22|       22|  0.138 us|  0.138 us|    4|    4|      yes|
+        |output_assignment_U0  |output_assignment  |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+        |write_link_out_U0     |write_link_out     |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+        |region_extraction_U0  |region_extraction  |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+        +----------------------+-------------------+---------+---------+----------+----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|      12|    -|
+|FIFO             |        -|     -|     297|     204|    -|
+|Instance         |        -|   416|   38562|   89409|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|      18|    -|
+|Register         |        -|     -|       2|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|   416|   38861|   89643|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     2940|  3600|  866400|  433200|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|    11|       4|      20|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +----------------------+-------------------+---------+-----+-------+-------+-----+
+    |       Instance       |       Module      | BRAM_18K| DSP |   FF  |  LUT  | URAM|
+    +----------------------+-------------------+---------+-----+-------+-------+-----+
+    |WOMBAT_U0             |WOMBAT             |        0|  416|  37460|  89193|    0|
+    |output_assignment_U0  |output_assignment  |        0|    0|     66|    176|    0|
+    |region_extraction_U0  |region_extraction  |        0|    0|    842|     20|    0|
+    |write_link_out_U0     |write_link_out     |        0|    0|    194|     20|    0|
+    +----------------------+-------------------+---------+-----+-------+-------+-----+
+    |Total                 |                   |        0|  416|  38562|  89409|    0|
+    +----------------------+-------------------+---------+-----+-------+-------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +--------------------+---------+----+----+-----+------+-----+---------+
+    |        Name        | BRAM_18K| FF | LUT| URAM| Depth| Bits| Size:D*B|
+    +--------------------+---------+----+----+-----+------+-----+---------+
+    |WOMBAT_out_V_U      |        0|  99|   0|    -|     2|   64|      128|
+    |et_calo_ad_V_U      |        0|  99|   0|    -|     2|  840|     1680|
+    |tmp_link_out_V_0_U  |        0|  99|   0|    -|     2|  128|      256|
+    +--------------------+---------+----+----+-----+------+-----+---------+
+    |Total               |        0| 297|   0|    0|     6| 1032|     2064|
+    +--------------------+---------+----+----+-----+------+-----+---------+
+
+    * Expression: 
+    +---------------------------------------+----------+----+---+----+------------+------------+
+    |             Variable Name             | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------------+----------+----+---+----+------------+------------+
+    |ap_idle                                |       and|   0|  0|   2|           1|           1|
+    |ap_sync_ready                          |       and|   0|  0|   2|           1|           1|
+    |region_extraction_U0_ap_start          |       and|   0|  0|   2|           1|           1|
+    |write_link_out_U0_ap_start             |       and|   0|  0|   2|           1|           1|
+    |ap_sync_region_extraction_U0_ap_ready  |        or|   0|  0|   2|           1|           1|
+    |ap_sync_write_link_out_U0_ap_ready     |        or|   0|  0|   2|           1|           1|
+    +---------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                  |          |   0|  0|  12|           6|           6|
+    +---------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------------------------+----+-----------+-----+-----------+
+    |                    Name                   | LUT| Input Size| Bits| Total Bits|
+    +-------------------------------------------+----+-----------+-----+-----------+
+    |ap_sync_reg_region_extraction_U0_ap_ready  |   9|          2|    1|          2|
+    |ap_sync_reg_write_link_out_U0_ap_ready     |   9|          2|    1|          2|
+    +-------------------------------------------+----+-----------+-----+-----------+
+    |Total                                      |  18|          4|    2|          4|
+    +-------------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------------------------+---+----+-----+-----------+
+    |                    Name                   | FF| LUT| Bits| Const Bits|
+    +-------------------------------------------+---+----+-----+-----------+
+    |ap_sync_reg_region_extraction_U0_ap_ready  |  1|   0|    1|          0|
+    |ap_sync_reg_write_link_out_U0_ap_ready     |  1|   0|    1|          0|
+    +-------------------------------------------+---+----+-----+-----------+
+    |Total                                      |  2|   0|    2|          0|
+    +-------------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+------------+---------------+--------------+
+|     RTL Ports     | Dir | Bits|  Protocol  | Source Object |    C Type    |
++-------------------+-----+-----+------------+---------------+--------------+
+|link_in_0          |   in|  128|     ap_none|      link_in_0|       pointer|
+|link_in_1          |   in|  128|     ap_none|      link_in_1|       pointer|
+|link_in_2          |   in|  128|     ap_none|      link_in_2|       pointer|
+|link_in_3          |   in|  128|     ap_none|      link_in_3|       pointer|
+|link_in_4          |   in|  128|     ap_none|      link_in_4|       pointer|
+|link_in_5          |   in|  128|     ap_none|      link_in_5|       pointer|
+|link_in_6          |   in|  128|     ap_none|      link_in_6|       pointer|
+|link_in_7          |   in|  128|     ap_none|      link_in_7|       pointer|
+|link_in_8          |   in|  128|     ap_none|      link_in_8|       pointer|
+|link_in_9          |   in|  128|     ap_none|      link_in_9|       pointer|
+|link_in_10         |   in|  128|     ap_none|     link_in_10|       pointer|
+|link_in_11         |   in|  128|     ap_none|     link_in_11|       pointer|
+|link_in_12         |   in|  128|     ap_none|     link_in_12|       pointer|
+|link_in_13         |   in|  128|     ap_none|     link_in_13|       pointer|
+|link_in_14         |   in|  128|     ap_none|     link_in_14|       pointer|
+|link_in_15         |   in|  128|     ap_none|     link_in_15|       pointer|
+|link_in_16         |   in|  128|     ap_none|     link_in_16|       pointer|
+|link_in_17         |   in|  128|     ap_none|     link_in_17|       pointer|
+|link_in_18         |   in|  128|     ap_none|     link_in_18|       pointer|
+|link_in_19         |   in|  128|     ap_none|     link_in_19|       pointer|
+|link_in_20         |   in|  128|     ap_none|     link_in_20|       pointer|
+|link_in_21         |   in|  128|     ap_none|     link_in_21|       pointer|
+|link_in_22         |   in|  128|     ap_none|     link_in_22|       pointer|
+|link_in_23         |   in|  128|     ap_none|     link_in_23|       pointer|
+|link_in_24         |   in|  128|     ap_none|     link_in_24|       pointer|
+|link_in_25         |   in|  128|     ap_none|     link_in_25|       pointer|
+|link_in_26         |   in|  128|     ap_none|     link_in_26|       pointer|
+|link_in_27         |   in|  128|     ap_none|     link_in_27|       pointer|
+|link_in_28         |   in|  128|     ap_none|     link_in_28|       pointer|
+|link_in_29         |   in|  128|     ap_none|     link_in_29|       pointer|
+|link_in_30         |   in|  128|     ap_none|     link_in_30|       pointer|
+|link_in_31         |   in|  128|     ap_none|     link_in_31|       pointer|
+|link_in_32         |   in|  128|     ap_none|     link_in_32|       pointer|
+|link_in_33         |   in|  128|     ap_none|     link_in_33|       pointer|
+|link_in_34         |   in|  128|     ap_none|     link_in_34|       pointer|
+|link_in_35         |   in|  128|     ap_none|     link_in_35|       pointer|
+|link_out_i         |   in|  256|     ap_ovld|       link_out|       pointer|
+|link_out_o         |  out|  256|     ap_ovld|       link_out|       pointer|
+|link_out_o_ap_vld  |  out|    1|     ap_ovld|       link_out|       pointer|
+|ap_clk             |   in|    1|  ap_ctrl_hs|  algo_unpacked|  return value|
+|ap_rst             |   in|    1|  ap_ctrl_hs|  algo_unpacked|  return value|
+|ap_start           |   in|    1|  ap_ctrl_hs|  algo_unpacked|  return value|
+|ap_done            |  out|    1|  ap_ctrl_hs|  algo_unpacked|  return value|
+|ap_ready           |  out|    1|  ap_ctrl_hs|  algo_unpacked|  return value|
+|ap_idle            |  out|    1|  ap_ctrl_hs|  algo_unpacked|  return value|
++-------------------+-----+-----+------------+---------------+--------------+
+

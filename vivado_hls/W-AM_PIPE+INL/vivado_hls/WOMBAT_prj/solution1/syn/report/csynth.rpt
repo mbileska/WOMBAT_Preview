@@ -1,0 +1,176 @@
+
+
+================================================================
+== Synthesis Summary Report of 'algo_unpacked'
+================================================================
++ General Information: 
+    * Date:           Sat Mar 29 17:42:24 2025
+    * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)
+    * Project:        WOMBAT_prj
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtex7
+    * Target device:  xc7vx690t-ffg1927-2
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-----------------------------------------------------------------------+--------+-------+---------+---------+----------+---------+------+----------+------+-----------+------------+-------------+-----+
+    |                                Modules                                |  Issue |       | Latency | Latency | Iteration|         | Trip |          |      |           |            |             |     |
+    |                                & Loops                                |  Type  | Slack | (cycles)|   (ns)  |  Latency | Interval| Count| Pipelined| BRAM |    DSP    |     FF     |     LUT     | URAM|
+    +-----------------------------------------------------------------------+--------+-------+---------+---------+----------+---------+------+----------+------+-----------+------------+-------------+-----+
+    |+ algo_unpacked                                                        |  Timing|  -1.20|       24|  150.000|         -|       25|     -|        no|     -|  367 (10%)|  37117 (4%)|  83116 (19%)|    -|
+    | + grp_conv_2d_cl_ap_uint_10_ap_fixed_16_6_5_3_0_config2_s_fu_269      |       -|   0.34|        1|    6.250|         -|        2|     -|       yes|     -|          -|  2471 (~0%)|    9190 (2%)|    -|
+    | + grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config4_s_fu_274         |       -|   0.84|        1|    6.250|         -|        2|     -|       yes|     -|   19 (~0%)|  1313 (~0%)|   2977 (~0%)|    -|
+    | + call_ret3_relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config5_s_fu_354   |      II|   2.82|        0|    0.000|         -|        1|     -|       yes|     -|          -|           -|   2128 (~0%)|    -|
+    | + grp_conv_2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config6_s_fu_434        |  Timing|  -1.20|        1|    6.250|         -|        1|     -|        no|     -|    70 (1%)|  3540 (~0%)|   11037 (2%)|    -|
+    | + grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config8_s_fu_514         |       -|   0.84|        1|    6.250|         -|        2|     -|       yes|     -|    76 (2%)|  1978 (~0%)|   2977 (~0%)|    -|
+    | + call_ret5_relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config9_s_fu_594   |      II|   2.82|        0|    0.000|         -|        1|     -|       yes|     -|          -|           -|   2128 (~0%)|    -|
+    | + grp_pooling2d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s_fu_674     |       -|   0.00|        6|   37.500|         -|        2|     -|       yes|     -|   16 (~0%)|  5078 (~0%)|    5297 (1%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_666                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_658                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_679                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_652                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_648                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_670                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_665                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_675                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_653                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_636                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_634                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_649                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_655                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_639                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_632                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    |  + grp_pool_op_ap_fixed_16_6_5_3_0_9_1_s_fu_677                       |       -|   0.54|        5|   31.250|         -|        1|     -|       yes|     -|    1 (~0%)|   317 (~0%)|    329 (~0%)|    -|
+    | + grp_normalize_ap_fixed_ap_fixed_16_6_5_3_0_config11_s_fu_754        |       -|   0.84|        1|    6.250|         -|        2|     -|       yes|     -|   12 (~0%)|   378 (~0%)|    689 (~0%)|    -|
+    | + grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config13_s_fu_774    |  Timing|  -0.47|        2|   12.500|         -|        2|     -|       yes|     -|   162 (4%)|  15055 (1%)|  44435 (10%)|    -|
+    | + call_ret9_relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config15_s_fu_814  |      II|   2.82|        0|    0.000|         -|        1|     -|       yes|     -|          -|           -|    896 (~0%)|    -|
+    | + grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config16_s_fu_850    |       -|   0.48|        2|   12.500|         -|        2|     -|       yes|     -|   12 (~0%)|   553 (~0%)|   1239 (~0%)|    -|
+    +-----------------------------------------------------------------------+--------+-------+---------+---------+----------+---------+------+----------+------+-----------+------------+-------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++------------+----------+
+| Interface  | Bitwidth |
++------------+----------+
+| link_out_i | 256      |
+| link_out_o | 256      |
++------------+----------+
+
+* REGISTER
++------------+---------+----------+
+| Interface  | Mode    | Bitwidth |
++------------+---------+----------+
+| link_in_0  | ap_none | 128      |
+| link_in_1  | ap_none | 128      |
+| link_in_10 | ap_none | 128      |
+| link_in_11 | ap_none | 128      |
+| link_in_12 | ap_none | 128      |
+| link_in_13 | ap_none | 128      |
+| link_in_14 | ap_none | 128      |
+| link_in_15 | ap_none | 128      |
+| link_in_16 | ap_none | 128      |
+| link_in_17 | ap_none | 128      |
+| link_in_18 | ap_none | 128      |
+| link_in_19 | ap_none | 128      |
+| link_in_2  | ap_none | 128      |
+| link_in_20 | ap_none | 128      |
+| link_in_21 | ap_none | 128      |
+| link_in_22 | ap_none | 128      |
+| link_in_23 | ap_none | 128      |
+| link_in_24 | ap_none | 128      |
+| link_in_25 | ap_none | 128      |
+| link_in_26 | ap_none | 128      |
+| link_in_27 | ap_none | 128      |
+| link_in_28 | ap_none | 128      |
+| link_in_29 | ap_none | 128      |
+| link_in_3  | ap_none | 128      |
+| link_in_30 | ap_none | 128      |
+| link_in_31 | ap_none | 128      |
+| link_in_32 | ap_none | 128      |
+| link_in_33 | ap_none | 128      |
+| link_in_34 | ap_none | 128      |
+| link_in_35 | ap_none | 128      |
+| link_in_4  | ap_none | 128      |
+| link_in_5  | ap_none | 128      |
+| link_in_6  | ap_none | 128      |
+| link_in_7  | ap_none | 128      |
+| link_in_8  | ap_none | 128      |
+| link_in_9  | ap_none | 128      |
++------------+---------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+---------------+
+| Argument | Direction | Datatype      |
++----------+-----------+---------------+
+| link_in  | in        | ap_uint<128>* |
+| link_out | out       | ap_uint<192>* |
++----------+-----------+---------------+
+
+* SW-to-HW Mapping
++----------+-------------------+---------+
+| Argument | HW Name           | HW Type |
++----------+-------------------+---------+
+| link_in  | link_in_0         | port    |
+| link_in  | link_in_1         | port    |
+| link_in  | link_in_2         | port    |
+| link_in  | link_in_3         | port    |
+| link_in  | link_in_4         | port    |
+| link_in  | link_in_5         | port    |
+| link_in  | link_in_6         | port    |
+| link_in  | link_in_7         | port    |
+| link_in  | link_in_8         | port    |
+| link_in  | link_in_9         | port    |
+| link_in  | link_in_10        | port    |
+| link_in  | link_in_11        | port    |
+| link_in  | link_in_12        | port    |
+| link_in  | link_in_13        | port    |
+| link_in  | link_in_14        | port    |
+| link_in  | link_in_15        | port    |
+| link_in  | link_in_16        | port    |
+| link_in  | link_in_17        | port    |
+| link_in  | link_in_18        | port    |
+| link_in  | link_in_19        | port    |
+| link_in  | link_in_20        | port    |
+| link_in  | link_in_21        | port    |
+| link_in  | link_in_22        | port    |
+| link_in  | link_in_23        | port    |
+| link_in  | link_in_24        | port    |
+| link_in  | link_in_25        | port    |
+| link_in  | link_in_26        | port    |
+| link_in  | link_in_27        | port    |
+| link_in  | link_in_28        | port    |
+| link_in  | link_in_29        | port    |
+| link_in  | link_in_30        | port    |
+| link_in  | link_in_31        | port    |
+| link_in  | link_in_32        | port    |
+| link_in  | link_in_33        | port    |
+| link_in  | link_in_34        | port    |
+| link_in  | link_in_35        | port    |
+| link_out | link_out_i        | port    |
+| link_out | link_out_o        | port    |
+| link_out | link_out_o_ap_vld | port    |
++----------+-------------------+---------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+
