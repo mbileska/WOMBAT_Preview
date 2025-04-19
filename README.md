@@ -15,6 +15,7 @@ A wombat, of the family Vombatidae, known for its burrowing prowess, efficiently
 - [Models](#Models)
 - [FPGA Implementation](#FPGA-Implementation)
 - [CMSSW and Analysis Code](#CMSSW-and-Analysis-Code)
+- [Trigger Primitives Displays](#Trigger-Primitives-Displays)
 ---
 
 ### Contact The Author
@@ -78,3 +79,6 @@ The base setup can be found [here](https://github.com/mbileska/ctp7cpp/tree/main
 The CMSSW versions used are (wombat_V3_AK4)[https://github.com/mbileska/cmssw/tree/wombat_V3_AK4] and (wombat_V3_Apprentice)[https://github.com/mbileska/cmssw/tree/wombat_V3_Apprentice], both owned and modified by the author. In analysisProcessingROOT/, an example of the CRAB setup used is shown, as well as the controlplot.C code, which serves to convert the ZB and MC ROOT files to output.root, which is then used to process the rates and efficiency histograms. The base rate.C and efficiency.C codes are also shown in analysisProcessingROOT/. This code was modified to accomodate multiple graphs and to fit the Technical Design Report style standardized by CERN.
 
 ---
+
+## Trigger Primitives Displays
+A collection of sorted and unsorted TP displays for W-AM and W-MM can be found at (WOMBAT_TP_Displays)[https://github.com/mbileska/WOMBAT_TP_Displays].
